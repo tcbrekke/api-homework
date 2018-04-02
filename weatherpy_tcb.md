@@ -3065,7 +3065,6 @@ plt.savefig(wind_plot_save_path, dpi=300)
 save_csv_path = os.path.join('weatherpy.csv')
 rand_weather_pull_df.to_csv(save_csv_path, index=False)
 
-per_city_json
 ```
 
 
