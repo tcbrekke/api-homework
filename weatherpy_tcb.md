@@ -3066,33 +3066,3 @@ save_csv_path = os.path.join('weatherpy.csv')
 rand_weather_pull_df.to_csv(save_csv_path, index=False)
 
 ```
-
-
-
-
-    {'base': 'stations',
-     'clouds': {'all': 20},
-     'cod': 200,
-     'coord': {'lat': 32.7, 'lon': -16.77},
-     'dt': 1522620000,
-     'id': 2266895,
-     'main': {'humidity': 77,
-      'pressure': 1010,
-      'temp': 61.83,
-      'temp_max': 62.6,
-      'temp_min': 60.8},
-     'name': 'Machico',
-     'sys': {'country': 'PT',
-      'id': 5952,
-      'message': 0.0046,
-      'sunrise': 1522565645,
-      'sunset': 1522610862,
-      'type': 1},
-     'visibility': 10000,
-     'weather': [{'description': 'few clouds',
-       'icon': '02n',
-       'id': 801,
-       'main': 'Clouds'}],
-     'wind': {'deg': 320, 'speed': 3.36}}
-
-
